@@ -1,0 +1,33 @@
+name: mi_card
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Dart SDK version range
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6 # iOS-style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # Enables the use of Material Design
+  uses-material-design: true
+
+  # Asset declarations
+  assets:
+    - images/pranali.jpg
+
+  # Custom fonts
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
